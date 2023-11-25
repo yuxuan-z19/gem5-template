@@ -36,7 +36,8 @@ def search_files(root_dir):
 
 if __name__ == "__main__":
     cwd = os.path.dirname(os.path.abspath(__file__))
-    os.chdir("../gem5")
+    print(cwd)
+    os.chdir(os.path.join(os.path.dirname(cwd), "gem5"))
     class_dict = search_files("src")
     os.chdir(cwd)
     with open("gem5_import.py", "w", encoding="utf-8") as f:

@@ -7,7 +7,7 @@
 2. Generate `./config/gem5_import.py`:
 
    ```bash
-   python ./config/gen_gem5/import.py
+   python ./config/gen_gem5_import.py
    ```
 
 3. Build `gem5.opt`:
