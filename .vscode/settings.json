@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./gem5/",
+        "./gem5/src/python"
+    ]
+}

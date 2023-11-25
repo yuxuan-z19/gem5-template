@@ -1,0 +1,4 @@
+.venv
+.vscode/**
+m5out
+!.vscode/settings.json
